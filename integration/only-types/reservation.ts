@@ -6,3 +6,5 @@ export interface Registration {
   date: Date | undefined;
   perks: Any | undefined;
 }
+
+export const EVENT_PACKAGE_NAME = 'event'

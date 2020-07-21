@@ -100,3 +100,5 @@ export interface Timestamp {
    */
   nanos: number;
 }
+
+export const GOOGLE_PROTOBUF_PACKAGE_NAME = 'google.protobuf'

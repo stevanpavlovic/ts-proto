@@ -118,3 +118,5 @@ export interface Any {
    */
   value: Uint8Array;
 }
+
+export const GOOGLE_PROTOBUF_PACKAGE_NAME = 'google.protobuf'

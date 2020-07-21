@@ -25,13 +25,13 @@ export interface HeroServiceController {
 
   addOneHero(request: Hero): void;
 
-  findOneHero(request: HeroById): Promise<Hero> | Observable<Hero> | Hero;
+  findOneHero(request: HeroById): Observable<Hero>;
 
-  findOneVillain(request: VillainById): Promise<Villain> | Observable<Villain> | Villain;
+  findOneVillain(request: VillainById): Observable<Villain>;
 
   findManyVillain(request: Observable<VillainById>): Observable<Villain>;
 
-  findManyVillainStreamIn(request: Observable<VillainById>): Promise<Villain> | Observable<Villain> | Villain;
+  findManyVillainStreamIn(request: Observable<VillainById>): Observable<Villain>;
 
   findManyVillainStreamOut(request: VillainById): Observable<Villain>;
 
