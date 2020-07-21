@@ -1,9 +1,9 @@
 {
-  "name": "ts-proto",
+  "name": "@stevanpavlovic/ts-proto",
   "version": "1.26.0",
   "description": "",
   "main": "build/plugin.js",
-  "repository": "github:stephenh/ts-proto",
+  "repository": "github:stevanpavlovic/ts-proto",
   "bin": {
     "protoc-gen-ts_proto": "./protoc-gen-ts_proto"
   },
