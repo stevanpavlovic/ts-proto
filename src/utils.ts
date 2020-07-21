@@ -46,7 +46,7 @@ export function defaultOptions(): Options {
     outputEncodeMethods: false,
     outputJsonMethods: false,
     outputClientImpl: false,
-    returnObservable: true,
+    returnObservable: false,
     addGrpcMetadata: false,
     nestJs: true,
     env: EnvOption.BOTH,
