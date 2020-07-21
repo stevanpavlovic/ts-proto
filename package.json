@@ -1,5 +1,5 @@
 {
-  "name": "@stevanpavlovic/ts-proto",
+  "name": "ts-proto",
   "version": "1.26.0",
   "description": "",
   "main": "build/plugin.js",
